@@ -38,6 +38,14 @@ class MainViewController: UIViewController {
 
     }
 
+    @IBAction func yellowCOlor(sender: AnyObject) {
+        self.gauge.startColor = UIColor.greenColor()
+        self.gauge.endColor = UIColor.greenColor()
+    }
+    @IBAction func redColor(sender: AnyObject) {
+        self.gauge.startColor = UIColor.redColor()
+        self.gauge.endColor = UIColor.redColor()
+    }
     @IBAction func animateAction(sender: AnyObject) {
 
 //   UIView.beginAnimations(nil, context: nil)
